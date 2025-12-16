@@ -1,0 +1,35 @@
+# Build artifacts
+build/
+*.o
+*.elf
+*.bin
+!keys/public_key.bin
+*.hex
+*.map
+*.lst
+
+# Keys (DO NOT COMMIT) ---- lol its a toy project
+# keys/
+
+# Editor/IDE
+# .vscode/ -- nah we're gonna need this
+.idea/
+*.swp
+*.swo
+*~
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Renode
+*.resc
+renode.log
+
